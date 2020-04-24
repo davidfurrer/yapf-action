@@ -9,7 +9,7 @@ LABEL "homepage"="https://github.com/AlexanderMelde/yapf-action"
 LABEL "maintainer"="Alexander Melde <alexander@melde.net>"
 
 RUN pip install --upgrade pip
-RUN pip install yapf
+RUN pip install yapf==0.29.0
 
 COPY entrypoint.sh /entrypoint.sh
 
